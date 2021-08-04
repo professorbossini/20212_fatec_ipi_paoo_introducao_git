@@ -4,6 +4,15 @@ public class Empregado{
     private double salario;
     private double comissao;
     private double bonus;
+    private int tipo;
+
+    public void setTipo (int tipo){
+        this.tipo = tipo;
+    }
+
+    public int getTipo (){
+        return this.tipo;
+    }
 
     public double calculaSalario(){
         if (tipo == 1){
